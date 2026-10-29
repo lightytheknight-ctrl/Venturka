@@ -1,0 +1,19 @@
+{
+	"required": true,
+	"minVersion": "0.8",
+	"package": "com.venture.client.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"SoundPacketMixin",
+		"HitParticleMixin",
+		"ParticleOptimizeMixin",
+		"ScreenShakeMixin",
+		"CrosshairMixin",
+		"CameraMixin",
+		"FreecamInputMixin",
+		"FreecamLookMixin"
+	],
+	"injectors": {
+		"defaultRequire": 0
+	}
+}

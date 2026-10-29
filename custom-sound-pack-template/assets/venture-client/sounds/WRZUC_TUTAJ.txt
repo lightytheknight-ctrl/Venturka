@@ -1,0 +1,13 @@
+Wrzuć tu własne dźwięki (format OGG Vorbis, najlepiej MONO, 44100 Hz, krótkie 0.1-0.5 s):
+
+  custom_hit.ogg   -> dźwięk trafienia   (w GUI: Dźwięki > Trafienie: "Własny (RP)")
+  custom_crit.ogg  -> dźwięk crita       (w GUI: Dźwięki > Crit: "Własny (RP)")
+
+Potem:
+ 1. Spakuj CAŁY folder custom-sound-pack-template do ZIP-a (pack.mcmeta musi być w głównym katalogu ZIP-a).
+ 2. Wrzuć ZIP do .minecraft/resourcepacks i włącz go w Opcje > Paczki zasobów.
+ 3. Wejdź w menu moda (Prawy Shift) i wybierz "Własny (RP)".
+
+Jeśli gra pokaże paczkę jako "niekompatybilną", zmień "pack_format" w pack.mcmeta
+na wartość dla Twojej wersji (to tylko ostrzeżenie, paczka i tak zadziała).
+Używaj wyłącznie dźwięków, do których masz prawa (np. CC0 z freesound.org).

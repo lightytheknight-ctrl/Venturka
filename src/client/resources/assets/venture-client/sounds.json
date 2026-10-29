@@ -1,0 +1,10 @@
+{
+	"hit_punch":  { "category": "player", "sounds": [ "venture-client:hit_punch" ] },
+	"hit_click":  { "category": "player", "sounds": [ "venture-client:hit_click" ] },
+	"hit_soft":   { "category": "player", "sounds": [ "venture-client:hit_soft" ] },
+	"hit_custom": { "category": "player", "sounds": [ "venture-client:custom_hit" ] },
+	"crit_ping":  { "category": "player", "sounds": [ "venture-client:crit_ping" ] },
+	"crit_chime": { "category": "player", "sounds": [ "venture-client:crit_chime" ] },
+	"crit_snap":  { "category": "player", "sounds": [ "venture-client:crit_snap" ] },
+	"crit_custom":{ "category": "player", "sounds": [ "venture-client:custom_crit" ] }
+}

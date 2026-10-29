@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "venture-client",
+	"version": "${version}",
+	"name": "Venture Client",
+	"description": "Lekki, w pełni legalny mod PvP: optymalizacja FPS, HP przeciwnika, keystrokes, dzwieki trafien i GUI ustawien (Prawy Shift).",
+	"authors": [
+		"Ty"
+	],
+	"contact": {},
+	"license": "MIT",
+	"environment": "client",
+	"entrypoints": {
+		"main": [
+			"com.venture.client.VentureClient"
+		],
+		"client": [
+			"com.venture.client.VentureClientMod"
+		]
+	},
+	"mixins": [
+		"venture-client.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
